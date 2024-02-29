@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table border="1" align="center" cellpadding="15" width="70%">
+            <thead>
+                <tr bgcolor="aqua">
+                    <th colspan="2">Latihan Form</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th colspan="2">
+                        <input type="submit" value="kirim"> &nbsp; &nbsp;
+                        <input type="submit" value="batal">
+                    </th>
+                </tr>
+            </tfoot>
+        <tbody>
+            <tr>
+                <td><label for="user">Username :</label></td>
+                <td><input type="text" placeholder="Masukkan Username" size="50" required></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Email :</label></td>
+                <td><input type="Email" placeholder="Masukkan Alamat Email" size="50"></td>
+            </tr>
+            <tr>
+                <td><label for="">Jenis Kelamin</label></td>
+                <td>
+                    <input type="radio" name="gender" value="L" >Laki-Laki &nbsp;
+                    <input type="radio" name="gender" value="p">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Hoby</label></td>
+                <td>
+                    <input type="checkbox" name="hoby" value="Membaca">Membaca <br>
+                    <input type="checkbox" name="hoby" value="menulis">Menulis <br>
+                    <input type="checkbox" name="hoby" value="olga">Olahraga <br>
+                    <input type="checkbox" name="hoby" value="tidur">Tidur <br>
+                    <input type="checkbox" name="hoby" value="berlari"> berlari
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Pendidikan</label></td>
+                <td>
+                    <select name="" id="">
+                        <option value=""selected>Pilih Pendidikan</option>
+                        <option value="SMA">SMA</option>
+                        <option value="D3">D3</option>
+                        <option value="S1" >S1</option>
+                        <option value="s2">S2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Alamat</label></td>
+                <td>
+                    <textarea name="" id="" cols="50" rows="10" placeholder="Masukkan Alamat"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">disabled</label></td>
+                <td>
+                    <input type="text" name="" id="" disabled>
+                </td>
+            </tr>
+        </tbody>
+        
+        </table>
+            
+    </form>
+</body>
+</html>

@@ -1,0 +1,52 @@
+/* Contoh Selector eksternal */
+p{
+    color: #2e0af7;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+    
+}
+body{
+    /* background-color: #ee0505; */
+    background-image:url('../img/gambar1.jpg') ;
+    background-size: cover;
+}
+fieldset{
+    border-width: 1px;
+    border-color: brown;
+    border-radius: 30px;
+
+}
+legend{
+    padding: 10px;
+    color: white;
+    background-color: brown;
+    font-weight: bold;
+    font-size: 14pt;
+}table{
+    border: 1px;
+    margin: auto;
+}td,th{
+    padding: 5px;
+    border: 1px solid green;
+}tr :hover{
+    background-color: #2e0af7;
+    color: red;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+}#paragraph{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    color: aqua;
+}
+ul,li, a.item:link, a.item:visited, a.item:active{
+    text-decoration: none;  /*Menghilangkan garis pada link */
+    list-style-type: none; /* Menghilangkan titik pada list*/
+    display: block; /* Mendisplay sebagi blok*/
+    float: left; /* Memposisikan a untuk */
+    padding: 2px 3px;
+    background-color: white;
+}
